@@ -1,12 +1,12 @@
 /*Bucle*/
 h2 {
-  color: #000; }
+  color: #fff; }
 
 h3 {
-  color: #000; }
+  color: #fff; }
 
 h4 {
-  color: #000; }
+  color: #fff; }
 
 /* Variables colores y font*/
 body {
@@ -40,7 +40,7 @@ p {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #000;
+  background-color: #fff;
   width: 100%;
   height: 70px;
   z-index: 1;
@@ -69,11 +69,11 @@ a {
   text-transform: uppercase; }
 
 a:hover {
-  color: #fff; }
+  color: #101357; }
 
 .banner {
   position: relative;
-  background-image: url(prueba-media/1.jpg);
+  background-image: url(/media/1.jpg);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -117,6 +117,19 @@ a:hover {
   flex-wrap: wrap;
   color: #101357; }
 
+/*------------NOTICIAS.HTML-----------------------*/
+hr {
+  background-color: #7dce94; }
+
+#apartado-noticias {
+  color: #white; }
+
+/*-------------------------------*/
+.w-100 {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh; }
+
 /*----------Producciones-----------*/
 @keyframes animate__slideInRight {
   from {
@@ -124,10 +137,14 @@ a:hover {
   to {
     margin-right: 30%; } }
 
+.producciones-container {
+  background-color: #333333;
+  width: 100vw; }
+
 #titulo-producciones {
   font-size: 1em;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 10px;
   color: #7dce94;
   animation: animate__slideInRight;
   animation-duration: 2s;
@@ -150,19 +167,13 @@ a:hover {
   color: #fff; }
 
 #videogal-uno {
-  margin-left: 10px;
-  margin-right: 5px;
-  padding: 20px;
-  margin: 10px; }
+  padding: 10px; }
 
 #videogal-dos {
-  padding: 20px;
-  margin-left: 10px;
-  margin-right: 5px; }
+  padding: 10px; }
 
 #videogal-tres {
-  padding: 20px;
-  margin: 10px; }
+  padding: 10px; }
 
 /*----------- Lanzamientos-----------*/
 @keyframes animate__lightSpeedInLeft {
@@ -171,12 +182,15 @@ a:hover {
   to {
     margin-left: 30%; } }
 
+.lanzamientos-container {
+  background-color: #101357;
+  width: 100vw; }
+
 #titulo-lanzamientos {
   font-size: 18px;
   text-align: left;
   padding: 20px;
   margin-left: 39px;
-  margin-top: 20px;
   color: #7dce94;
   animation: animate__lightSpeedInLeft;
   animation-duration: 3s;
@@ -246,11 +260,15 @@ a:hover {
   opacity: 1; }
 
 /* ------------Clientes-------------*/
+.clientes-container {
+  background-color: #fff;
+  width: 100vw;
+  margin: 0, auto; }
+
 #titulo-cte {
   font-size: 1em;
   text-align: center;
   padding: 20px;
-  margin-left: 10px;
   color: #7dce94; }
 
 @keyframes animate__zoomIn {
@@ -350,3 +368,11 @@ a:hover {
 
 #footer .social-menu .footer-link .icon {
   display: block; }
+
+/*----------------CONTACTO.HTML-------------*/
+#titulo-contacto {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+  color: #7dce94; }
